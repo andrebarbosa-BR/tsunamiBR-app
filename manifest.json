@@ -1,0 +1,14 @@
+{
+    "name": "Tsunami Alert BR",
+    "short_name": "TsunamiBR",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0088cc",
+    "description": "App de alerta de tsunami e monitor sísmico em tempo real. Mantido por você, para todos.",
+    "icons": [{
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }]
+  }

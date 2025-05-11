@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 2em;
+    background-color: #f0f8ff;
+  }
+  h1 {
+    margin-bottom: 0.5em;
+  }
+  #status {
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  .config {
+    margin: 1em auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  input {
+    padding: 5px;
+    width: 100%;
+  }
+  button {
+    padding: 8px;
+    background-color: #0088cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  #alerta {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    display: none;
+  }
+  .oculto {
+    display: none;
+  }
+  #lista {
+    margin-top: 2em;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .evento {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 0;
+  }
+  
+  /* Botão de apoio */
+  .apoie {
+    margin-top: 3em;
+    font-size: 0.9em;
+    color: #555;
+  }
+  .btn-donate {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding: 0.6em 1em;
+    background-color: #ff8800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }

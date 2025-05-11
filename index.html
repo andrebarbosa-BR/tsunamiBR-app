@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌊 Alerta de Tsunami & Monitor Sísmico</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="manifest" href="manifest.json"/>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <h1>🌊 Alerta de Tsunami & Monitor Sísmico</h1>
+  <div id="status">🔄 Verificando status...</div>
+
+  <div class="config">
+    <label>
+      Magnitude mínima para alerta:
+      <input type="number" id="minMag" value="7" step="0.1"/>
+    </label>
+    <label>
+      Distância máxima (km) até João Pessoa:
+      <input type="number" id="maxDist" value="5000"/>
+    </label>
+    <label>
+      Profundidade máxima (km):
+      <input type="number" id="maxDepth" value="50"/>
+    </label>
+    <button id="salvarConfig">Salvar Configuração</button>
+  </div>
+
+  <div id="alerta" class="oculto">⚠️ RISCO DE TSUNAMI! EVACUAR IMEDIATAMENTE!</div>
+
+  <h2>🌍 Terremotos Recentes</h2>
+  <div id="lista"></div>
+
+  <!-- Botão de apoio -->
+  <p class="apoie">
+    💡 Este app é gratuito e mantido por mim como serviço público.
+    <a href="https://ko-fi.com/seunome " target="_blank" class="btn-donate">☕ Apoie este projeto</a>
+  </p>
+</body>
+</html>
